@@ -107,6 +107,10 @@ textarea {
     background-color: #edc31c;
 }
 
+.secondColor {
+    color: #edc31c;
+}
+
 .tCenter {
     text-align: center;
 }
@@ -136,6 +140,15 @@ textarea {
     margin: auto;
 }
 
+.ligneSection {
+    border-bottom: 1px solid #edc31c;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
 /*end global classes*/
 
 /*start common rules*/
@@ -149,6 +162,7 @@ nav {
     right: 0;
     left: 0;
     border-bottom: 1px solid;
+    z-index: 1;
 }
 
 h1 {
@@ -158,23 +172,23 @@ h1 {
 }
 
 h2 {
-    color: yellow;
     font-size: 22px;
     margin: 2em 0 .5em 0;
 }
 
 h3 {
     font-size: 40px; 
-    color: yellow;
+    color: #edc31c;
     margin: 0;
     text-align: center;
+    width: 95%;
     margin: auto;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #edc31c;
 }
 
 h5 {
     font-size: 20px;
-    color: black;
+    color: #edc31c;
     padding: .5em 1em;
 }
 
@@ -182,7 +196,7 @@ h6 {
     font-size: 20px;
     color: red;
     padding: 1em 0 2em 0;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #edc31c;
     margin: .8em auto;
     width: 95%;
 }
@@ -194,21 +208,18 @@ a {
 
 li {
     list-style-type: none;
-    padding: .5em 0;
 }
 
 p {
-    color: yellow;
+    color: #edc31c;
     padding: .5em;
     margin: 0px;
-    text-align: center;
     line-height: 1.4em;
 }
 
 section {
     width: 95%;
     margin: auto;
-    border-bottom: 1px solid yellow;
     padding: 0;
 }
 
@@ -286,7 +297,12 @@ section {
     border-radius: 2px;
     width: 100%;
     margin: auto;
+    border: solid 1px #edc31c;
+}
 
+.ecartementLi {
+    padding: 1em 0;
+    margin-right: 2em;
 }
 
 /*end main styles*/
@@ -306,6 +322,24 @@ section {
 
 /*end catalogue styles*/
 
+/*start contact styles*/
+
+.map-responsive {
+overflow:hidden;
+padding: 2em .5em;
+position:relative;
+height:auto;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+}
+
+/*end contact style*/
+
 
 @media screen and (min-width: 900px) {
     .menu-toggle, menu-checkbox {
@@ -321,6 +355,22 @@ section {
 
     .menu li  {
         display: inline-block;
+    }
+
+    .container {
+        width: 50%;
+        margin: auto;
+    }
+
+    .flex900 {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .textContact {
+        margin: 6em 0;
+        padding: 0; 
     }
 }
 
