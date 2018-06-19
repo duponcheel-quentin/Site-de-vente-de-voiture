@@ -333,12 +333,14 @@ form {
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 2em 0;
+    width: 95%;
+    margin: auto;
 }
 
 .cardResize {
     max-height: 500px;
     max-width: 350px;
-    margin: 2em 0;
+    margin: 2em .5em;
 }
 
 .textBody {
