@@ -198,11 +198,6 @@ h2 {
 h3 {
     font-size: 40px; 
     color: #edc31c;
-    margin: 0;
-    text-align: center;
-    width: 95%;
-    margin: auto;
-    border-bottom: 1px solid #edc31c;
 }
 
 h5 {
@@ -237,7 +232,6 @@ li {
 p {
     padding: .5em;
     margin: 0px;
-    line-height: 1.4em;
 }
 
 section {
@@ -343,6 +337,10 @@ th {
     margin-right: 2em;
 }
 
+.paragrapheEspace {
+    margin: 2em 0; 
+}
+
 /*end main styles*/
 
 /*start actualité style*/
@@ -358,7 +356,7 @@ th {
 }
 
 .cardResize {
-    max-height: 500px;
+    max-height: 450px;
     max-width: 350px;
     margin: 2em .5em;
 }
