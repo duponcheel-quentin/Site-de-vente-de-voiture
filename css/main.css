@@ -364,12 +364,13 @@ th {
 }
 
 .textBody {
-    height: 250px;
+    max-height: 350px;
     overflow: auto;
 }
 
 .video {
-    height: 250px;
+    max-height: 250px;
+    margin-bottom: 2em;
 }
 
 /*end actualté style*/
